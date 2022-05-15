@@ -8,7 +8,7 @@
 	- [Taking Turn Protocol](#TTP)
 	- [Summary](#MAP-SUM)
 - [Network Topology](#NT)
-- [Address Resolusion Protocol](#ARP)
+- [Address Resolution Protocol](#ARP)
 - [Ethernet](#ETH)
 
 ## <a name="Whatis"></a>  Link Layer
