@@ -186,3 +186,25 @@ All Device are connect to a switch or hub
 
 1. Data can be tranfer **Bidirectional**
 2. Some Protocol **FDDI** which use **token** to organize
+
+## <a name="ARP"></a>Address Resolution Protocol
+Use to discovering the link **layer address ( MAC )**, associate with network **layer address ( IP )**.
+Each Node will have ARP table which map **MAC address with IP** 
+
+>**Note :** Each Node have TTL
+
+![ARP use case](https://github.com/RyuChk/NetworkFinalExam/tree/main/Lecture%2010%20:%20Link%20Layer)
+
+## <a name="ETH"></a>Ethernet
+
+### <a name="MFS"></a>1. Minimum File Size
+Ethernet has minimun file size because it need to be ensure that the frames **reach destination** before sender **finish sending frame**.
+
+This is because if the size is too small, the collision will not detect if the package finish the end the connection before frame.
+
+### <a name="EDTS"></a>2. Ethernet Data Transfer Service
+1. Connectionless
+2. Unreliable
+	- CRC happend once each frame
+	- No Ack or Nacks.
+3. Use CSMA/CD
