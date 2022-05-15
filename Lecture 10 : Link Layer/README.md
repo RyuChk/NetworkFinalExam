@@ -8,6 +8,8 @@
 	- [Taking Turn Protocol](#TTP)
 	- [Summary](#MAP-SUM)
 - [Network Topology](#NT)
+- [Address Resolusion Protocol](#ARP)
+- [Ethernet](#ETH)
 
 ## <a name="Whatis"></a>  Link Layer
 Link layer only concern on traporting information from **one node to adjacent ( next ) node**.
@@ -193,7 +195,7 @@ Each Node will have ARP table which map **MAC address with IP**
 
 >**Note :** Each Node have TTL
 
-![ARP use case](https://github.com/RyuChk/NetworkFinalExam/tree/main/Lecture%2010%20:%20Link%20Layer)
+![ARP use case](https://github.com/RyuChk/NetworkFinalExam/blob/main/Lecture%2010%20:%20Link%20Layer/ARP.jpg)
 
 ## <a name="ETH"></a>Ethernet
 
